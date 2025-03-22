@@ -1,0 +1,80 @@
+.broker-detail-form{
+display: flex;
+// gap: 30px;
+.ant-form-item{
+    width: 268px;
+    height: 56px;
+}
+
+}
+.broker-detail-section-main{
+    background: #2A67B20A;
+    border: 1px solid #E1E1E380;
+
+}
+.broker-detail-section{
+    margin: 24px;
+    label{
+        font-family: Poppins;
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color:  #0A1013;
+    }
+    .form-container{
+        margin-top: 14px;
+    }
+}
+.broker-table-container{
+    margin: 24px;
+    .ant-table-thead {
+        tr{
+        background-color: #F6F6F6 !important;
+        th{
+            font-family: Poppins;
+font-weight: 600;
+font-size: 14px;
+line-height: 120%;
+color: #8BA1B3;
+
+        }
+        }
+    }
+    .ant-table-tbody{
+tr {
+    td {
+        font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+color: #292929;
+
+    }
+}
+    }
+}
+.common-edit-btn{
+    width: 58px;
+    height: 32px;
+    background: #2169B2;
+    color: white !important;
+   
+}
+.common-edit-btn:hover{
+    background: #2169B2 !important;
+}
+.common-btn{
+    width: 78;
+height: 38;
+border-width: 1px;
+gap: 10px;
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 10px;
+padding-left: 20px;
+border-radius: 6px;
+border: 1px solid #2A67B2;
+color: #2169B2 !important;
+}
